@@ -1,0 +1,358 @@
+/* Reset default padding and margin for the body */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif; /* Set font family */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 16rem; /* Adjust padding */
+  background-color: black; /* Set background color */
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.2rem; /* Set font size */
+  color: white; /* Set text color */
+}
+
+/* Navigation links styles */
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem; /* Set gap between links */
+  align-items: center;
+}
+
+/* Individual link styles */
+.link {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Hover effect for links */
+.link:hover {
+  color: #00ffa7; /* Change text color on hover */
+  transition: all 0.3s; /* Smooth transition */
+}
+
+/* Welcome section styles */
+.welcome-section {
+  text-align: center;
+  background-color: black; /* Set background color */
+  color: white; /* Set text color */
+  padding: 10px; /* Adjust padding */
+}
+
+/* Welcome title styles */
+.welcome-title {
+  font-size: 120px; /* Set font size */
+  font-family: "Poppins", sans-serif; /* Set font family */
+  font-weight: 800; /* Set font weight */
+  font-style: normal;
+  line-height: 45%; /* Set line height */
+  letter-spacing: 11px; /* Set letter spacing */
+}
+
+/* Welcome text styles */
+.welcome-text {
+  margin-top: 20px;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif; /* Set font family */
+  font-weight: 400; /* Set font weight */
+  font-style: normal;
+  font-size: 18px; /* Set font size */
+  line-height: 10px;
+}
+
+/* Welcome button styles */
+.welcome-button {
+  top: 533px; /* Adjust position */
+  left: 864px; /* Adjust position */
+  gap: 0px;
+  border-radius: 50px 50px 50px 50px; /* Set border radius */
+  opacity: 0px; /* Set opacity */
+  background-color: white; /* Set background color */
+  color: black; /* Set text color */
+  padding: 15px 20px; /* Adjust padding */
+  font-size: 1rem; /* Set font size */
+  font-weight: 600; /* Set font weight */
+  margin: 2rem; /* Adjust margin */
+  margin-bottom: 4rem; /* Adjust margin */
+}
+
+/* Icon styles */
+.fas {
+  padding-left: 20px; /* Adjust padding */
+  font-size: 20px; /* Set font size */
+}
+
+/* Styles for Chaintech text */
+.chaintech {
+  background: linear-gradient(
+    to left,
+    #00ffa7,
+    #ffff00
+  ); /* Set linear gradient background */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  -webkit-text-fill-color: transparent; /* Set text color to transparent */
+  letter-spacing: normal; /* Set letter spacing */
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Content styles */
+.content {
+  flex: 1;
+}
+
+/* Styles for arrows */
+.arrows {
+  display: flex;
+  align-items: center;
+  margin-top: 3.5rem; /* Adjust margin */
+}
+
+/* Individual arrow styles */
+.arrows i {
+  font-size: 20px; /* Set font size */
+  color: black; /* Set color */
+  margin: 0 5px; /* Adjust margin */
+  padding: 5px; /* Adjust padding */
+}
+
+/* Welcome arrow styles */
+.welcome-arrow {
+  border: 1px solid black;
+  border-radius: 50%; /* Set border radius */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px; /* Set width */
+  height: 19px; /* Set height */
+  margin-left: 18px; /* Adjust margin */
+  background: black; /* Set background color */
+}
+
+/* Welcome arrow icon styles */
+.welcome-arrow-icon {
+  font-size: 12px; /* Set font size */
+  margin-right: 18px; /* Adjust margin */
+  color: white; /* Set text color */
+}
+
+/* Hover effect for arrows */
+.arrows i:hover {
+  border-radius: 50%; /* Set border radius */
+  border: 1px solid black; /* Set border */
+  width: 20px; /* Set width */
+  height: 20px;
+}
+
+/* Container styles */
+.container {
+  padding: 60px 200px; /* Set padding */
+}
+
+/* Content title styles */
+.content h1 {
+  font-size: 50px; /* Set font size */
+  font-weight: 600; /* Set font weight */
+  margin: 0; /* Remove margin */
+}
+
+/* Content paragraph styles */
+.content p {
+  font-size: 18px; /* Set font size */
+  font-weight: 500; /* Set font weight */
+  margin: 0; /* Remove margin */
+}
+
+/* Card container styles */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px; /* Set gap between cards */
+}
+
+/* Card styles */
+.card {
+  border: 3.5px solid black;
+  border-radius: 20px; /* Set border radius */
+}
+
+/* Individual card styles */
+.card1 {
+  background-color: rgba(43, 255, 138, 0.15); /* Set background color */
+}
+
+.card2 {
+  background-color: rgba(0, 240, 255, 0.15); /* Set background color */
+}
+
+.card3 {
+  background-color: rgba(252, 89, 89, 0.15); /* Set background color */
+}
+
+.card4 {
+  background-color: rgba(45, 69, 230, 0.15); /* Set background color */
+}
+
+/* Card set styles */
+.card-set {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Set gap between card sets */
+  margin: 10px; /* Set margin */
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black; /* Add border */
+  padding: 5px 20px; /* Set padding */
+}
+
+/* Header image styles */
+.header img {
+  margin-right: 10px; /* Set margin */
+}
+
+/* Card title styles */
+.card h1 {
+  text-align: center; /* Align text to center */
+  margin: 0; /* Remove margin */
+}
+
+/* Card image styles */
+.card img {
+  max-width: 100%; /* Set max width */
+  height: auto; /* Set auto height */
+}
+
+/* Card image container styles */
+.card-image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black; /* Add border */
+}
+
+/* Card image styles */
+.card-image1 img {
+  position: relative;
+  top: 10px;
+  width: 255px;
+  max-width: 261px;
+  height: 156px;
+}
+
+/* Card button styles */
+.card button {
+  margin-top: 10px; /* Set margin */
+  margin-left: 140px; /* Set margin */
+  margin-bottom: 10px; /* Set margin */
+  border-radius: 20px 20px 20px 20px; /* Set border radius */
+  padding-left: 10px; /* Set padding */
+  padding-bottom: 5px; /* Set padding */
+  font-weight: 600; /* Set font weight */
+  font-size: 14px; /* Set font size */
+  background-color: white; /* Set background color */
+}
+
+/* Hover effect for card buttons */
+.card button:hover {
+  background-color: black; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+/* Card icon box styles */
+.card-icon-box {
+  border: 1px solid black; /* Add border */
+  border-radius: 50%; /* Set border radius */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px; /* Set width */
+  height: 20px; /* Set height */
+  margin-top: 4px; /* Set margin */
+  margin-left: 6px; /* Set margin */
+  background: linear-gradient(
+    to left,
+    #00ffa7,
+    #ffff00
+  ); /* Set linear gradient background */
+}
+
+/* Card icon styles */
+.card-icon {
+  font-size: 15px; /* Set font size */
+  margin-right: 18px; /* Set margin */
+}
+
+/* Header paragraph styles */
+.header p {
+  font-weight: 600; /* Set font weight */
+  font-size: 15px; /* Set font size */
+}
+
+/* Card content styles */
+.card-content {
+  padding: 30px; /* Set padding */
+  font-weight: 600; /* Set font weight */
+  font-size: 10px; /* Set font size */
+}
+
+.card-content h1 {
+  font-weight: 600;
+  font-size: 23px;
+}
+
+/* Footer styles */
+.footer {
+  margin-top: 35px; /* Set margin */
+  padding: 40px; /* Set padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black; /* Set background color */
+  color: white; /* Set text color */
+}
+
+/* Footer content container styles */
+.footer div {
+  margin: 10px 0; /* Set margin */
+}
+
+/* Footer image container styles */
+.footer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60rem; /* Set width */
+  border-bottom: 0.2px solid #5e5e5e; /* Add border */
+  padding: 25px; /* Set padding */
+}
+
+/* Footer content styles */
+.footer-content {
+  color: #98a6ac; /* Set text color */
+}
